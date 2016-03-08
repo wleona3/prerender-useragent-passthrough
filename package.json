@@ -1,0 +1,28 @@
+{
+  "name": "prerender-useragent-passthrough",
+  "version": "0.0.1",
+  "description": "A plugin for Prerender server which makes it passthrough the request user-agent instead of masking it. This is good for sites that serve different content based on the request user agent.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Osherg/prerender-useragent-passthrough.git"
+  },
+  "keywords": [
+    "prerender",
+    "userAgent",
+    "user-agent",
+    "passthrough"
+  ],
+  "author": "Itamar Atzmon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Osherg/prerender-useragent-passthrough/issues"
+  },
+  "homepage": "https://github.com/Osherg/prerender-useragent-passthrough#readme",
+  "dependencies": {
+    "express-useragent": "^0.2.4"
+  }
+}
