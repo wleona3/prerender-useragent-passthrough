@@ -3,6 +3,11 @@ A plugin for [Prerender](https://github.com/prerender/prerender) which makes it 
 This is intended for sites that serve different content based on the request user agent.
 
 ## Usage
+Install using NPM
+```
+npm install prerender-useragent-passthrough --save
+```
+
 Add this to your Prerender server.js:
 ```
 server.use(require('prerender-useragent-passthrough'));
