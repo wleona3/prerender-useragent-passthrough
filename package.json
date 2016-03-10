@@ -1,6 +1,6 @@
 {
   "name": "prerender-useragent-passthrough",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A plugin for Prerender server which makes it passthrough the request user-agent instead of masking it. This is intended for sites that serve different content based on the request user agent.",
   "main": "index.js",
   "scripts": {
